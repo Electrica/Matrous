@@ -10,7 +10,7 @@ switch ($modx->event->name) {
     case 'OnBeforeCommentSave':
         $comment = $_REQUEST['text'];
 
-        $output = $matrous->checkText($comment);
+        $output = $matrous->filterText($comment);
 
         $modx->event->params['TicketComment']->set('text', $output);
 

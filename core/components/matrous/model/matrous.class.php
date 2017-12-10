@@ -33,7 +33,7 @@ class Matrous
         $this->modx->lexicon->load('matrous:default');
     }
 
-    public function checkText($text){
+    public function filterText($text){
         if($text){
             Wkhooy\ObsceneCensorRus::filterText($text);
             return $text ;

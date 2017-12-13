@@ -113,6 +113,8 @@ class ObsceneCensorRus {
         'ying',
         'laun',
         'чаепитие',
+        'video',
+        'iframe'
     );
 
     public static function getFiltered($text, $charset = 'UTF-8') {

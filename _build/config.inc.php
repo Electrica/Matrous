@@ -7,8 +7,8 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'Matrous',
     'name_lower' => 'matrous',
-    'version' => '1.0.0',
-    'release' => 'beta',
+    'version' => '1.0.1',
+    'release' => 'pl',
     // Install package to site right after build
     'install' => false,
     // Which elements should be updated on package upgrade

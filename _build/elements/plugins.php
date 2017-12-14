@@ -5,7 +5,7 @@ return [
         'file' => 'matrous',
         'description' => '',
         'events' => [
-            'OnCommentSave' => [],
+            'OnBeforeCommentSave' => [],
         ],
     ],
 ];

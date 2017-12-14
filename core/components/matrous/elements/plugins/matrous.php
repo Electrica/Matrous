@@ -7,7 +7,7 @@ $matrous = $modx->getService('matrous', 'Matrous', MODX_CORE_PATH . 'components/
 
 switch ($modx->event->name) {
 
-    case 'OnCommentSave':
+    case 'OnBeforeCommentSave':
 
         $comment = $modx->event->params['TicketComment']->get('text');
 
